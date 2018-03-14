@@ -5,6 +5,8 @@
   @@include('../layouts/head.html', {
     "title": "ALLAMANDA"
   })
+  <!-- include scripts.html -->
+  @@include('../layouts/scripts.html')
   <!-- include styles.html -->
   @@include('../layouts/styles.html')
 </head>
@@ -13,16 +15,13 @@
     <!-- include header.html -->
     @@include('../layouts/header.html')
 
-    <!-- include banner.html -->
-    @@include('../partials/banner.html')
-
     <section class="main-container">
       <div id="a" class="block-container">
         <div class="container-fluid">
           <div class="row">
             <div class="center">
-              <div class="col-xs-12">
-                <h4 class="title-block">Allamanda</h4>
+              <div class="slides">
+                @@include('../partials/slides-container.html')
               </div>
             </div>
           </div>

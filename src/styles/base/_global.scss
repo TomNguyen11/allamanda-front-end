@@ -1,0 +1,61 @@
+.slides-container {
+  width: 100%;
+  height: 500px;
+  .slide-box {
+    width: 100%;
+    height: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  .container {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background: #419be0;
+  }
+
+  .single-item {
+    height: 100%;
+    .slick-track {
+      height: 100%;
+    }
+  }
+
+  .slick-slide {
+    text-align: center;
+    color: #419be0;
+    background: white;
+    height: 100%;
+  }
+
+  .slick-list {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slick-dots {
+    bottom: 50%;
+    width: 50px;
+    left: calc(100% - 50px);
+    li {
+      display: block;
+      button {
+        &::before {
+          font-size: 10px;
+          opacity: 0.4;
+          color: #fff;
+        }
+      }
+      &.slick-active {
+        button {
+          &::before {
+            font-size: 12px;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

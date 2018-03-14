@@ -19,9 +19,20 @@
 <meta property="og:type" content="">
 <meta property="og:url" content="" />
 <!-- Google Font -->
+  <!-- include scripts.html -->
+  <!-- build:js(.) scripts/vendor.min.js -->
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/script.min.js -->
+<script type="text/javascript" src="scripts/script.js"></script>
+<!-- endbuild -->
   <!-- include styles.html -->
   <!-- build:css(.) styles/vendor.min.css -->
 <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick-theme.css" />
 <!-- endbuild -->
 <!-- build:css(.tmp) styles/style.min.css -->
 <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
@@ -44,31 +55,36 @@
   </div>
 </header>
 
-    <!-- include banner.html -->
-    <section class="banner-container">
-  <div class="block-container">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="center">
-          <div class="col-xs-12">
-            <div class="login-form">
-              <p class="title-block">Banner</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="clearfix"></div>
-</section>
-
     <section class="main-container">
       <div id="a" class="block-container">
         <div class="container-fluid">
           <div class="row">
             <div class="center">
-              <div class="col-xs-12">
-                <h4 class="title-block">Allamanda</h4>
+              <div class="slides">
+                <div class="slides-container">
+  <div class="container">
+    <div class="single-item">
+      <div class="slide-box" style="background-image: url('../../images/bg-slide-01.png')">
+        <h3>1</h3>
+      </div>
+      <div class="slide-box" style="background-image: url('../../images/bg-slide-01.png')">
+        <h3>2</h3>
+      </div>
+      <div class="slide-box" style="background-image: url('../../images/bg-slide-01.png')">
+        <h3>3</h3>
+      </div>
+      <div class="slide-box" style="background-image: url('../../images/bg-slide-01.png')">
+        <h3>4</h3>
+      </div>
+      <div class="slide-box" style="background-image: url('../../images/bg-slide-01.png')">
+        <h3>5</h3>
+      </div>
+      <div class="slide-box" style="background-image: url('../../images/bg-slide-01.png')">
+        <h3>6</h3>
+      </div>
+    </div>
+  </div>
+</div>
               </div>
             </div>
           </div>
@@ -96,6 +112,7 @@
   <!-- build:js(.) scripts/vendor.min.js -->
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
 <!-- endbuild -->
 <!-- build:js scripts/script.min.js -->
 <script type="text/javascript" src="scripts/script.js"></script>
