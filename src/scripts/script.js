@@ -1,4 +1,5 @@
 $(".single-item").slick({
   dots: true,
-  arrows: false
+  arrows: false,
+  // autoplay: true
 });

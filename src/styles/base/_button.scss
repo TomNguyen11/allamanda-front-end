@@ -1,0 +1,42 @@
+.btn-as-link {
+  background-color: transparent;
+  border: 0;
+  -webkit-transition: .5s;
+  transition: width .5s;
+}
+
+.btn-book {
+  @extend .btn-as-link;
+  text-transform: uppercase;
+  background-image: linear-gradient(-180deg, #5896cf 0%, #2f68b1 100%);
+  border-radius: 3px;
+  width: 175px;
+  height: 45px;
+  color: $color-white;
+  margin-right: 25px;
+  &:hover {
+    background-image: linear-gradient(-180deg, #4b99e2 0%, #03224b 100%);
+  }
+  .icon-Icon_BookNow {
+    font-size: 20px;
+    vertical-align: text-bottom;
+  }
+}
+
+.btn-menu {
+  @extend .btn-as-link;
+  background-color: rgba(225, 225, 225, 0.37);
+  border-radius: 100%;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  &:hover {
+    background-color: $color-black;
+  }
+
+  [class^="line-"] {
+    margin: 0 auto 2px;
+  }
+
+}
+

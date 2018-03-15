@@ -1,0 +1,16 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper-full {
+  height: 100%;
+}
+
+.main-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
