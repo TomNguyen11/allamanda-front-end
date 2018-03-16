@@ -142,3 +142,17 @@
     }
   }
 }
+
+.list {
+  list-style-type: none;
+  width: 100%;
+  .list-item {
+    display: inline-block;
+  }
+}
+
+.text-bold {
+  font-size: 13px;
+  color: $color-white;
+  font-family: $text-bold;
+}

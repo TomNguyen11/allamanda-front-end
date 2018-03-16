@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?3yuldc');
-  src:  url('fonts/icomoon.eot?3yuldc#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?3yuldc') format('truetype'),
-    url('fonts/icomoon.woff?3yuldc') format('woff'),
-    url('fonts/icomoon.svg?3yuldc#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1jbs15');
+  src:  url('fonts/icomoon.eot?1jbs15#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1jbs15') format('truetype'),
+    url('fonts/icomoon.woff?1jbs15') format('woff'),
+    url('fonts/icomoon.svg?1jbs15#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,18 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Icon_Youtube:before {
-  content: "\e906";
-}
-.icon-Icon_Owl:before {
-  content: "\e907";
-}
-.icon-Icon_Instagram:before {
-  content: "\e908";
-}
-.icon-Icon_FB:before {
-  content: "\e909";
-}
 .icon-Icon_BookNow:before {
   content: "\e900";
   color: #fff;
@@ -58,5 +46,21 @@
 }
 .icon-Icon_ContactUs:before {
   content: "\e905";
+  color: #fff;
+}
+.icon-Icon_Owl:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-Icon_Instagram:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-Icon_Facebook:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-Icon_Youtube:before {
+  content: "\e90f";
   color: #fff;
 }
