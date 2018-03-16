@@ -1,0 +1,158 @@
+* {
+  font-family: $text-regular;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.logo {
+  background-image: url(../../icons/logowhite.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 155px;
+  display: block;
+  height: 115px;
+}
+
+.nav-group {
+  padding: 30px 30px 0 0;
+
+  .btn-book,
+  .btn-menu {
+    display: inline-block;
+  }
+}
+
+.icon-left {
+  margin-right: 13px;
+}
+
+[class^="line-"] {
+  display: block;
+  height: 2px;
+  width: 14px;
+  margin-bottom: 2px;
+  background-color: #fff;
+}
+
+.heading-2 {
+  font-family: $text-bold;
+  font-size:48px;
+  color: $color-white;
+  letter-spacing:5.25px;
+  line-height:30px;
+  text-shadow:0px 0px 4px rgba(0,0,0,0.50);
+  text-align:center;
+}
+
+.description {
+  font-size:18px;
+  color: $color-white;
+  letter-spacing:0px;
+  line-height:25px;
+  text-align:center;
+}
+
+.view-more {
+  width: 196px;
+  height: 46px;
+  margin: 0 auto;
+  .link {
+    background: $color-white;
+    border-radius:3px;
+    display: block;
+    padding: 12px 20px;
+  }
+}
+
+.slides-container {
+  width: 100%;
+  height: 100%;
+  .slide-box {
+    width: 100%;
+    height: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 100%;
+      padding: 20px;
+
+      .heading-2 {
+        margin-bottom: 32px;
+      }
+
+      .description {
+        margin-bottom: 41px;
+      }
+    }
+  }
+  .container {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .single-item {
+    height: 100%;
+    .slick-track {
+      height: 100%;
+    }
+  }
+
+  .slick-slide {
+    text-align: center;
+    height: 100%;
+  }
+
+  .slick-list {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slick-dots {
+    bottom: 50%;
+    width: 50px;
+    left: calc(100% - 50px);
+    li {
+      display: block;
+      button {
+        &::before {
+          font-size: 10px;
+          opacity: 0.4;
+          color: #fff;
+        }
+      }
+      &.slick-active {
+        button {
+          &::before {
+            font-size: 12px;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.list {
+  list-style-type: none;
+  width: 100%;
+  .list-item {
+    display: inline-block;
+  }
+}
+
+.text-bold {
+  font-size: 13px;
+  color: $color-white;
+  font-family: $text-bold;
+}
