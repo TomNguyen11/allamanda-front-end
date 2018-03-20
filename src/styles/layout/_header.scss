@@ -64,7 +64,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 0;
 
     .list-menu {
       position: absolute;
@@ -111,6 +111,9 @@
           color: rgba(#fff, 0.5);
         }
       }
+    }
+    &.menu-collapse {
+      z-index: 1;
     }
   }
 }

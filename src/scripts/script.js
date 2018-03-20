@@ -42,8 +42,6 @@ function setHeightMenu() {
   if (menu) {
     menu.style.height = `${y}px`;
   }
-  console.log('WIDTH', x);
-  console.log('HEIGHT', y);
 }
 
 var btnMenuTop = document.getElementById('btn-menu-top');
