@@ -63,7 +63,7 @@ gulp.task('fileinclude', () => {
 
 // Minify CSS, JS
 gulp.task('minify', () => {
-  return gulp.src(gulp.sources.src + '/*.html')
+  return gulp.src(gulp.sources.src + '/*.js')
     .pipe(useref())
     .pipe(gulpif('*.js', uglify({
       compress: false
