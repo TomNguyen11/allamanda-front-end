@@ -8,7 +8,7 @@ var useref = require('gulp-useref');
 var rev = require('gulp-rev');
 var revReplace = require('gulp-rev-replace');
 var gulpif = require('gulp-if');
-var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglifyes');
 var cleanCSS = require('gulp-clean-css');
 var imagemin = require('gulp-imagemin');
 var del = require('del');
@@ -63,7 +63,7 @@ gulp.task('fileinclude', () => {
 
 // Minify CSS, JS
 gulp.task('minify', () => {
-  return gulp.src(gulp.sources.src + '/*.html')
+  return gulp.src(gulp.sources.src + '/*.js')
     .pipe(useref())
     .pipe(gulpif('*.js', uglify({
       compress: false
