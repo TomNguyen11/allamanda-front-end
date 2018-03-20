@@ -1,0 +1,14 @@
+// ----------------------------------------------------------------------
+
+  // filter
+
+// ----------------------------------------------------------------------
+
+// example: @include filter-blur(5px);
+
+@mixin filter-blur($value) {
+  -webkit-filter: blur($value);
+     -moz-filter: blur($value);
+       -o-filter: blur($value);
+          filter: blur($value);
+}

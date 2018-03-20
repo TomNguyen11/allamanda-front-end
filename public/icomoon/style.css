@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1jbs15');
-  src:  url('fonts/icomoon.eot?1jbs15#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1jbs15') format('truetype'),
-    url('fonts/icomoon.woff?1jbs15') format('woff'),
-    url('fonts/icomoon.svg?1jbs15#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?uxx27q');
+  src:  url('fonts/icomoon.eot?uxx27q#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uxx27q') format('truetype'),
+    url('fonts/icomoon.woff?uxx27q') format('woff'),
+    url('fonts/icomoon.svg?uxx27q#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,28 +24,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Icon_BookNow:before {
+.icon-Icon_TheVillas:before {
   content: "\e900";
   color: #fff;
 }
-.icon-Icon_Review:before {
-  content: "\e901";
-  color: #fff;
-}
-.icon-Icon_Location:before {
+.icon-Icon_Rates:before {
   content: "\e902";
-  color: #fff;
-}
-.icon-Icon_Gallery:before {
-  content: "\e903";
-  color: #fff;
-}
-.icon-Icon_Details:before {
-  content: "\e904";
-  color: #e5e5e5;
-}
-.icon-Icon_ContactUs:before {
-  content: "\e905";
   color: #fff;
 }
 .icon-Icon_Owl:before {
@@ -62,5 +46,29 @@
 }
 .icon-Icon_Youtube:before {
   content: "\e90f";
+  color: #fff;
+}
+.icon-Icon_BookNow:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-Icon_Review:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-Icon_Location:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-Icon_Gallery:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-Icon_Details:before {
+  content: "\e907";
+  color: #e5e5e5;
+}
+.icon-Icon_ContactUs:before {
+  content: "\e906";
   color: #fff;
 }
