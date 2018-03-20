@@ -73,9 +73,9 @@
       transform: translate(-50%, -50%);
       height: auto;
       text-align: center;
-      padding: 0px 50px;
+      padding: 0px 30px;
       .list-item {
-        padding: 20px 110px;
+        padding: 20px 90px;
         margin: 0 0 30px;
         .link {
           display: block;
@@ -84,26 +84,31 @@
           &.active {
             border-bottom: 3px solid #498cca;
           }
-          &:hover {
-            [class^="icon-"]
-            &::before,
+          &:hover,
+          &.active {
+            [class^="icon-"] {
+              &:before {
+                color: $color-white;
+              }
+            }
             .description {
               color: $color-white;
             }
           }
-
-          .icon-large {
-            display: block;
-            margin-bottom: 25px;
-          }
-          [class^="icon-"]
-          &::before {
-            color: rgba(#fff, 0.5);
-          }
-          .description {
-            text-transform: uppercase;
-            color: rgba(#fff, 0.5);
-          }
+        }
+      }
+      .description {
+        text-transform: uppercase;
+        color: rgba(#fff, 0.5);
+      }
+      .icon-large {
+        display: block;
+        margin-bottom: 20px;
+      }
+      [class^="icon-"] {
+        &:before {
+          @include transition(0.5s);
+          color: rgba(#fff, 0.5);
         }
       }
     }
