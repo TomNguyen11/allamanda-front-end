@@ -49,4 +49,3 @@ var btnMenuTop = document.getElementById('btn-menu-top');
 btnMenuTop && btnMenuTop.addEventListener("click", toggleMenu);
 
 setHeightMenu();
-
