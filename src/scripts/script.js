@@ -3,6 +3,23 @@ $(".single-item").slick({
   arrows: false,
   autoplay: true
 });
+
+$('.gallery-list').slick({
+  dots: true,
+  arrows: false,
+  slidesPerRow: 3,
+  rows: 2,
+  responsive: [
+  {
+    breakpoint: 478,
+    settings: {
+      slidesPerRow: 1,
+      rows: 1,
+    }
+  }
+]
+});
+
 var idMenuContainer = 'menu-container',
     clsMenuCollapse = 'menu-collapse',
     idToggleBox = 'menu-toggle',
