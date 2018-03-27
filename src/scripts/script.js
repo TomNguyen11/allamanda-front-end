@@ -3,6 +3,31 @@ $(".single-item").slick({
   arrows: false,
   autoplay: true
 });
+
+$('.gallery-list').slick({
+  dots: true,
+  arrows: false,
+  autoplay: true,
+  slidesPerRow: 3,
+  rows: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesPerRow: 2,
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesPerRow: 1,
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
 var idMenuContainer = 'menu-container',
     clsMenuCollapse = 'menu-collapse',
     idToggleBox = 'menu-toggle',
