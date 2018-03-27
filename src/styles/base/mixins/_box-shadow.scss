@@ -11,8 +11,8 @@
      -moz-box-shadow: $hoff $voff $blur $spread $color;
           box-shadow: $hoff $voff $blur $spread $color;
 }
-@mixin box-shadow-inset($top, $left, $blur, $color) {  
-  -webkit-box-shadow:inset $top $left $blur $color;
-  -moz-box-shadow:inset $top $left $blur $color;
-  box-shadow:inset $top $left $blur $color;
+@mixin box-shadow-inset($hoff: false, $voff: false, $blur: false, $spread: false, $color: false){
+  -webkit-box-shadow:inset $hoff $voff $blur $spread $color;
+  -moz-box-shadow:inset $hoff $voff $blur $spread $color;
+  box-shadow:inset $hoff $voff $blur $spread $color;
 }
