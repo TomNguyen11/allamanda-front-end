@@ -1,8 +1,10 @@
 .gallery-list-container {
-  width: 100%;
-  height: 100%;
-  background-image: url('../images/bg-slide-01.png');
-  @extend .background-full;
+  .main-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg-slide-07.png');
+    @extend .background-full;
+  }
 
   .gallery-list {
     .slick-list {
@@ -12,10 +14,9 @@
       height: 540px;
       overflow: hidden;
       margin: 0 auto;
-      background-color: burlywood;
     }
     .gallery-box {
-      padding: 15px;
+      padding: 15px 18px;
       &:hover {
         .short-text {
           opacity: 1;
