@@ -1,0 +1,45 @@
+.gallery-list-container {
+  .main-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg-slide-07.png');
+    @extend .background-full;
+  }
+
+  .gallery-list {
+    .slick-list {
+      @include clearfix();
+      width: 1170px;
+      max-width: 90%;
+      height: 540px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .gallery-box {
+      padding: 15px 18px;
+      &:hover {
+        .short-text {
+          opacity: 1;
+        }
+      }
+    }
+    .b-link {
+      height: 240px;
+    }
+    .b-text {
+      position: relative;
+      @include box-shadow-inset(0, -100px, 100px, -15px, rgba(8, 8, 8, 0.81));
+    }
+    .b-bottom {
+      @include clearfix();
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      padding: 0 20px;
+
+      .short-text {
+        opacity: 0;
+      }
+    }
+  }
+}
