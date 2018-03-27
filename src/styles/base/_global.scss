@@ -161,9 +161,11 @@ body, html {
     left: calc(100% - 50px);
     li {
       display: block;
+      margin-bottom: 15px;
       button {
         &::before {
-          font-size: 10px;
+          font-family: $text-bold;
+          font-size: 35px;
           @include opacity(0.4);
           color: #fff;
         }
@@ -171,7 +173,7 @@ body, html {
       &.slick-active {
         button {
           &::before {
-            font-size: 12px;
+            font-size: 45px;
             @include opacity(1);
           }
         }
