@@ -5,17 +5,18 @@
   @@include('../layouts/head.html', {
     "title": "ALLAMANDA"
   })
-  <!-- include styles.html -->
+  <!-- include style.html -->
   @@include('../layouts/styles.html')
 </head>
 <body>
-  <div class="wrapper wrapper-full gallery-list-container" id="wrapper">
+  <div class="wrapper wrapper-full gallery-detail-container" id="wrapper">
     <!-- include header.html -->
     @@include('../layouts/header.html')
-    <section class="main-container" id="main-container">
-      @@include('../partials/slides-list.html')
+    <section class="main-container" id="maincontainer">
+      <!-- include slide-thumnail.html -->
+      @@include('../partials/slide-thumbnail.html')
     </section>
-    <!-- include footer.html -->
+    <!-- include footer.html-->
     @@include('../layouts/footer.html')
   </div>
   <!-- include scripts.html -->
